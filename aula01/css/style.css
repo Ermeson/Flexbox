@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+.container {
+    display: flex;
+    background-color: #D6B4FC;
+    margin: 10px auto 30px;
+    max-width: 800px;
+    font-family: sans-serif;
+}
+
+.row {
+     flex-direction: row;
+}
+
+.row-reverse {
+     flex-direction: row-reverse;
+}
+
+.column {
+     flex-direction: column;
+}
+
+.column-reverse {
+     flex-direction: column-reverse;
+}
+
+.container div {
+    background: #5D21D0; 
+    height: 80px;
+    font-size: 1em;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.row div, .row-reverse div {       
+    margin: 8px 4px;
+    width: 80px;
+}
+
+.container{
+    padding: 8px;
+    gap: 10px;
+}
+
+.container div{
+    width: 80px;
+}
+
+.column div, .column-reverse div {       
+    margin: 8px;
+}
+
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+.flex-start{
+    justify-content: start;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
