@@ -1,0 +1,126 @@
+body{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.featured{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h4{
+    background-color: rgb(226, 43, 189);
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 6px;
+    width: 80px;
+    text-align: center;
+}
+
+.post{
+    border: 1px solid rgb(64, 52, 54);
+    padding: 20px;
+    border-radius: 6px;
+    transform: all 0.2s;
+    cursor: pointer;
+}
+
+.post p{
+    color: rgb(136, 133, 133);
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.post:hover{
+    background-color: #e3e3e3;
+    transition: all 0.2s;
+}
+
+.post:hover h4, .post:hover h3{
+    color: #282626;
+    transition: all 0.3s;
+}
+
+.post-list{
+    padding: 40px 0;
+}
+
+header{
+    padding: 30px 0;
+}
+
+.brand img{
+    width: 240px;
+}
+
+nav.menu{
+    background-color: rgb(113, 9, 177);
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+nav ul{
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar input{
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    width: 320px;
+    padding: 0 15px;
+}
+
+.search button{
+    background-color: rgb(226, 43, 189);
+    border: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: #090909;
+    padding: 60px 0;
+    text-align: center;
+}
